@@ -1662,9 +1662,17 @@
     border-style: var(--tw-border-style);
     border-width: 0px;
   }
+  .border-2 {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
+  }
   .border-t {
     border-top-style: var(--tw-border-style);
     border-top-width: 1px;
+  }
+  .border-r {
+    border-right-style: var(--tw-border-style);
+    border-right-width: 1px;
   }
   .border-b {
     border-bottom-style: var(--tw-border-style);
@@ -1731,6 +1739,9 @@
   .border-amber-50 {
     border-color: var(--color-amber-50);
   }
+  .border-blue-50 {
+    border-color: var(--color-blue-50);
+  }
   .border-brand {
     border-color: var(--color-brand);
   }
@@ -1745,6 +1756,9 @@
   }
   .border-white {
     border-color: var(--color-white);
+  }
+  .border-b-white {
+    border-bottom-color: var(--color-white);
   }
   .apexcharts-active {
     .apexcharts-canvas .apexcharts-tooltip-series-group& .apexcharts-tooltip-y-group {
