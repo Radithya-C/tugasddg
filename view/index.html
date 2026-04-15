@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sidebar — GameStore</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="../src/output.css" rel="stylesheet">
+</head>
+<body class="bg-[#300202] min-h-screen flex">
+
+<aside class="flex flex-col width-180px min-h-screen bg-[#111] shrink-0">
+
+  <!--navbar-->
+  <nav class="flex flex-col flex-1">
+
+    <!--dashboar-->
+    <a href="#"
+       class="flex items-center gap-3 px-4 py-3.5
+              bg-[#300202] text-white b cursor-pointer">
+      <span class="font-['Barlow_Condensed'] font-black text-[15px] tracking-wide uppercase">
+        Dashboard
+      </span>
+    </a>
+
+    <!--store-->
+    <a href="#"
+       class="flex items-center gap-3 px-4 py-3.5
+              bg-[#300202] text-white cursor-pointer">
+      <span class="font-['Barlow_Condensed'] font-black text-[15px] tracking-wide uppercase">
+        Store
+      </span>
+    </a>
+
+    <!--Library-->
+    <a href="#"
+       class="flex items-center gap-3 px-4 py-3.5
+              bg-[#300202] text-white  cursor-pointer">
+      <span class="font-['Barlow_Condensed'] font-black text-[15px] tracking-wide uppercase">
+        Library
+      </span>
+    </a>
+
+    <!--Community-->
+    <a href="#"
+       class="flex items-center gap-3 px-4 py-3.5
+              bg-[#300202] text-white cursor-pointer">
+      <span class="font-['Barlow_Condensed'] font-black text-[15px] tracking-wide uppercase">
+        Community
+      </span>
+    </a>
+  </nav>
+
+</aside>
+
+ <main class="flex-1 p-6">
+  <main class="flex-1 p-6 bg-[#300202] text-white">
+
+  <h2 class="text-xl font-bold mb-4">Discount & Events</h2>
+
+  <div class="flex gap-4">
+
+    <!--banner utama-->
+    <div class="w-3/4 relative rounded-xl overflow-hidden">
+      <img src="../asset/rdr main.png" class="w-full h-full object-cover" alt="">
+
+      <!--diskon-->
+      <div class="absolute bottom-4 left-4 flex items-center">
+        <span class="bg-yellow-500 text-black font-bold px-3 py-2 rounded-l-lg text-lg">
+          -75%
+        </span>
+        <span class="bg-orange-500 text-white font-bold px-4 py-2 rounded-r-lg text-lg">
+          Rp 219.750
+        </span>
+      </div>
+    </div>
+
+    <!-- RIGHT CARD -->
+    <div class="w-1/4 bg-yellow-400 text-black rounded-xl p-4 flex flex-col justify-between">
+
+      <div>
+        <h3 class="font-black text-lg leading-tight mb-2">
+          RED DEAD <br> REDEMPTION II
+        </h3>
+
+        <!--gameplya-->
+        <div class="grid grid-cols-2 gap-2 mb-3">
+          <img src="../asset/gameplay1.png" class="rounded-md object-cover">
+          <img src="../asset/gameplay2.png" class="rounded-md object-cover">
+          <img src="../asset/gameplay3.png" class="rounded-md object-cover">
+          <img src="../asset/gameplay4.png" class="rounded-md object-cover">
+        </div>
+
+        <p class="text-xs mb-2 font-bold">
+          Red Dead Redemption 2 is an open-world action-adventure game set in the final years of the Wild West. You play as Arthur Morgan, an outlaw navigating loyalty, survival, and the collapse of his gang in a rapidly changing world.
+          Explore a vast, immersive world filled with dynamic events, intense gunfights, and deep storytelling that goes beyond just action
+        </p>
+
+        <!--top-->
+        <div class="flex flex-wrap gap-1 text-10px">
+          <span class="bg-black text-white px-2 py-1 rounded">Top Seller</span>
+          <span class="bg-black text-white px-2 py-1 rounded">Open World</span>
+          <span class="bg-black text-white px-2 py-1 rounded">Multiplayer</span>
+          <span class="bg-black text-white px-2 py-1 rounded">Adventure</span>
+        </div>
+      </div>
+
+      <!--harga-->
+      <div class="mt-4 flex items-center justify-between">
+        <div>
+          <span class="line-through text-sm text-gray-700">Rp 879.000</span><br>
+          <span class="font-bold text-lg">Rp 219.750</span>
+        </div>
+
+        <button class="bg-black text-white px-3 py-2 rounded-lg">
+          🛒
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <!-- NEWS & UPDATE -->
+<div class="px-6 pb-4">
+  <h2 class="font-['Barlow_Condensed'] font-black text-22px tracking-wide uppercase text-white mb-3">
+    News & Update
+  </h2>
+
+  <!-- Card Castorice -->
+  <div class="flex rounded-xl overflow-hidden border border-[#281860] h-130px"
+       style="background: linear-gradient(120deg, #12083a, #1e1060);">
+
+    <!-- kiri -->
+    <div class="flex-1 relative flex items-center justify-center overflow-hidden">
+      <div class="absolute inset-0"
+           style="background: radial-gradient(ellipse at center, rgba(130,60,220,.35) 0%, transparent 70%);">
+      </div>
+      <img src="/asset/image.png" class="h-full object-cover object-center relative z-10" alt="Castorice">
+      
+      <div class="absolute inset-0 flex items-center justify-center z-0
+                  text-[#2e1880] text-10px font-semibold uppercase tracking-widest">
+        Gacha Art
+      </div>
+    </div>
+
+    <!-- info kanan -->
+    <div class="w-190px shrink-0 flex flex-col justify-between p-3
+                bg-black bg-opacity-30 border-l border-white border-opacity-5">
+      <div>
+        <span class="bg-[#c0392b] text-white text-[8px] font-bold px-2 py-0.5
+                     rounded uppercase tracking-wide inline-block mb-1">NEW BANNER</span>
+        <div class="font-['Barlow_Condensed'] font-bold text-[15px] text-white leading-tight mb-1">
+          Castorice is now<br>on Gacha Banner
+        </div>
+        <p class="text-[8px] text-[#888] leading-relaxed">
+          New character Castorice added to the limited-time Gacha Banner. Pull before it ends!
+        </p>
+        <div class="flex gap-1 mt-2">
+          <div class="w-28px h-28px rounded bg-[#1a0e50] border border-[#2e1880]
+                      flex items-center justify-center text-[7px] text-[#2e1880] font-bold">IMG</div>
+          <div class="w-28px h-28px rounded bg-[#201060] border border-[#2e1880]
+                      flex items-center justify-center text-[7px] text-[#2e1880] font-bold">IMG</div>
+          <div class="w-28px h-28px rounded bg-[#180a40] border border-[#2e1880]
+                      flex items-center justify-center text-[7px] text-[#2e1880] font-bold">IMG</div>
+        </div>
+      </div>
+      <div class="text-[7.5px] text-[#555] leading-relaxed border-t border-white border-opacity-5 pt-1">
+        Phase 1 → 26 November 2024 S/C 16<br>
+        Phase 2 → 18 December 2024 S/C 15
+      </div>
+    </div>
+
+  </div>
+
+  <!-- dots -->
+  <div class="flex gap-1.5 justify-center mt-2">
+    <div class="w-5 h-1 rounded-full bg-yellow-400"></div>
+    <div class="w-5 h-1 rounded-full bg-[#2e2e2e]"></div>
+    <div class="w-5 h-1 rounded-full bg-[#2e2e2e]"></div>
+  </div>
+</div>
+
+  
+</main>
+
+
+<script src="https://unpkg.com/flowbite@latest/dist/flowbite.min.js"></script>
+</body>
+</html>
+  
